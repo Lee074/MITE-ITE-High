@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "ite",
+	"version": "${version}",
+	"name": "is too easy",
+	"description": "MITE ITE",
+	"authors": [
+		"Huix"
+	],
+	"contact": {
+		"homepage": "https://huix.ink/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"adapter": "kotlin",
+				"value": "ink.huix.ITEKt"
+			}
+		]
+	},
+	"mixins": [
+		"ite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"fabric-api": ">=0.76.0+1.18.2",
+		"minecraft": "1.18.2",
+		"java": ">=17",
+		"fabric-language-kotlin": ">=1.10.17+kotlin.1.9.22"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
