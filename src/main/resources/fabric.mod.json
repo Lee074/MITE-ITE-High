@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "ITE",
+	"id": "ite",
 	"version": "${version}",
-	"name": "is too easy",
+	"name": "Is Too Easy",
 	"description": "MITE ITE",
 	"authors": [
 		"Huix"
@@ -10,14 +10,14 @@
 	"contact": {
 		"homepage": "https://huix.ink/"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/ite/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			{
 				"adapter": "kotlin",
-				"value": "ink.huix.ITEKt"
+				"value": "ink.huix.IsTooEasyKt"
 			}
 		]
 	},
