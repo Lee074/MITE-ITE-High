@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ite:vibranium_block"
+    }
+  ],
+  "craftingTime": 1959100,
+  "craftingTier": 1,
+  "result": {
+    "item": "ite:vibranium_ingot",
+    "count": 9
+  }
+}

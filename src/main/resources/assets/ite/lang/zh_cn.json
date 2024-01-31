@@ -1,0 +1,17 @@
+{
+  "item.ite.vibranium_ingot": "振金锭",
+  "item.ite.vibranium_nugget": "振金粒",
+  "item.ite.vibranium_sword": "振金剑",
+  "item.ite.vibranium_helmet": "振金头盔",
+  "item.ite.vibranium_chestplate": "振金胸甲",
+  "item.ite.vibranium_leggings": "振金护腿",
+  "item.ite.vibranium_boots": "振金靴子",
+  "block.ite.vibranium_block": "振金块",
+  "block.ite.vibranium_anvil": "振金砧",
+  "block.ite.chipped_vibranium_anvil": "轻微损坏的振金砧",
+  "block.ite.damaged_vibranium_anvil": "严重损坏的振金砧",
+  "itemGroup.ite.material_group": "ITE | 材料",
+  "itemGroup.ite.armor_group": "ITE | 盔甲",
+  "itemGroup.ite.block_group": "ITE | 方块",
+  "itemGroup.ite.tool_group": "ITE | 工具"
+}

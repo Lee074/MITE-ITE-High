@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ite:vibranium_anvil",
+    "ite:chipped_vibranium_anvil",
+    "ite:damaged_vibranium_anvil"
+  ]
+}

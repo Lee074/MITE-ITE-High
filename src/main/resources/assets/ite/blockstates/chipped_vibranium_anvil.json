@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "facing=south": { "model": "ite:block/chipped_vibranium_anvil" },
+        "facing=west": { "model": "ite:block/chipped_vibranium_anvil", "y": 90 },
+        "facing=north": { "model": "ite:block/chipped_vibranium_anvil", "y": 180 },
+        "facing=east": { "model": "ite:block/chipped_vibranium_anvil", "y": 270 }
+    }
+}
