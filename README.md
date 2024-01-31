@@ -1,9 +1,4 @@
-# MITE Fabric Example Mod
-
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+# MITE-ITE High
+### A 1.18.2 MITE Mod base on [1.6.4-MITE-ITE](https://github.com/XiaoYuOvO/MITE-ITE/)
+Code from Huix
+Resource from Xy_lose
