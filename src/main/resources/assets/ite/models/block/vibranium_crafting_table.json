@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "ite:block/vibranium_crafting_table_front",
+        "down": "block/oak_planks",
+        "up": "block/crafting_table_top",
+        "north": "ite:block/vibranium_crafting_table_front",
+        "east": "ite:block/vibranium_crafting_table_side",
+        "south": "ite:block/vibranium_crafting_table_side",
+        "west": "ite:block/vibranium_crafting_table_front"
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    " A ",
+    "AYA"
+  ],
+  "key": {
+    "A": {
+      "item": "ite:vibranium_ingot"
+    },
+    "X": {
+      "item": "ite:vibranium_block"
+    },
+    "Y": {
+      "item": "minecraft:ancient_metal_anvil"
+    },
+    "Z": {
+      "item": "minecraft:adamantium_ingot"
+    }
+  },
+  "craftingTime": 2282650,
+  "craftingTier": 8,
+  "result": {
+    "item": "ite:vibranium_anvil"
+  }
+}

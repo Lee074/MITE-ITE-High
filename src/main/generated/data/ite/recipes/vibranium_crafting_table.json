@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "ite:vibranium_ingot"
+    }
+  ],
+  "craftingTime": 297750,
+  "craftingTier": 7,
+  "result": {
+    "item": "ite:vibranium_crafting_table"
+  }
+}

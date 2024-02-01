@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "X X",
+    "X X"
   ],
   "key": {
-    "#": {
+    "X": {
       "item": "ite:vibranium_ingot"
     }
   },
-  "craftingTime": 1959100,
+  "craftingTime": 891850,
   "craftingTier": 8,
   "result": {
-    "item": "ite:vibranium_block"
+    "item": "ite:vibranium_boots"
   }
 }

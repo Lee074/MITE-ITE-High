@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XZX",
+    "ZYZ",
+    "XZX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:mithril_nugget"
+    },
+    "Y": {
+      "item": "minecraft:diamond"
+    },
+    "Z": {
+      "item": "minecraft:adamantium_ingot"
+    }
+  },
+  "craftingTime": 531800,
+  "craftingTier": 7,
+  "result": {
+    "item": "ite:vibranium_ingot"
+  }
+}

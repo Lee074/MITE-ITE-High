@@ -9,19 +9,22 @@ import net.minecraft.util.math.Direction
 class ITEAnvilBlock(settings: Settings, tier: ToolMaterials, initalDamage: Int, maxDamage: Int, repairLevel: Int, val iteMaterial: ITEToolMaterial)
     : AnvilBlock(settings, tier, initalDamage, maxDamage, repairLevel) {
 
+
     override fun getBrokeState(currentDamage: Int, iBlockState: BlockState): BlockState? {
-        return if (currentDamage >= this.maxDamage) {
+        return if (currentDamage >= this.maxDamage)
             null
-        } else if (currentDamage >= this.maxDamage / 3 * 2) {
-            this.getDamagedStateForITE().with(FACING, iBlockState.get(FACING) as Direction) as BlockState
-        } else if (currentDamage <= this.maxDamage / 3) {
-            defaultState.with(FACING, iBlockState.get(FACING) as Direction) as BlockState
-        } else {
+        else if (currentDamage >= this.maxDamage / 3 * 2)
+            this.getDamagedStateForITE().with(FACING, iBlockState.get(FACING))
+        else if (currentDamage <= this.maxDamage / 3)
+            defaultState.with(FACING, iBlockState.get(FACING))
+        else {
             if (currentDamage <= this.maxDamage / 3 * 2 && currentDamage >= this.maxDamage / 3)
-                this.getChippedStateForITE().with(FACING, iBlockState.get(FACING) as Direction
-            ) as BlockState else null
+                this.getChippedStateForITE().with(FACING, iBlockState.get(FACING))
+            else
+                null
         }
     }
+
     private fun getDamagedStateForITE(): BlockState {
         return ITEBlock.DAMAGED_VIBRANIUM_ANVIL.defaultState
     }

@@ -1,3 +1,5 @@
 accessWidener	v2	named
 
 accessible method net/minecraft/block/entity/BlockEntityType create (Ljava/lang/String;Lnet/minecraft/block/entity/BlockEntityType$Builder;)Lnet/minecraft/block/entity/BlockEntityType;
+
+accessible method net/minecraft/block/Blocks createLightLevelFromLitBlockState (I)Ljava/util/function/ToIntFunction;

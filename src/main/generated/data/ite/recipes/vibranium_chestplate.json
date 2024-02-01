@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "ite:vibranium_ingot"
+    }
+  },
+  "craftingTime": 1549400,
+  "craftingTier": 8,
+  "result": {
+    "item": "ite:vibranium_chestplate"
+  }
+}
